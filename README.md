@@ -13,6 +13,12 @@ TODO:
 - Download the ImageNet dataset from http://www.image-net.org/
     - Then, and move validation images to labeled subfolders, using [the following shell script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
 
+## Preparing pretrained weights
+
+You can download pretrained weights and then put it in /pretrained_models/hub/checkpoints directory.
+
+If you didn't see this directory, create it by yourself.
+
 ## Training
 
 To train a model, run `main.py` with the desired model architecture and the path to the ImageNet dataset:
