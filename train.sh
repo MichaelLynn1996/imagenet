@@ -1,0 +1,1 @@
+python main.py -a vit_base_patch32_384 --pretrained /workspace/datasets/ImageNet1k
